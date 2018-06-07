@@ -1,0 +1,13 @@
+img{
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+}
+
+.bg-color{
+    background-color: lightgrey;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Anton Regular", sans-serif;
+}
