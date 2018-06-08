@@ -75,6 +75,7 @@ nav {
 section img {
     padding: 15px;
     background-color: rgba(180,180,180, .25);
+    height: 100%;
 }
 h3  {
     font-family: 'Abel', sans-serif;
@@ -112,6 +113,18 @@ h3  {
 
     .header-div {
         height: 50px;
+    }
+
+    .icon{
+        height: 18px;
+        width: 18px;
+        font-size: 1em;
+        line-height: 20px;
+    }
+
+    h5{
+        font-family: 'Abel', sans-serif;
+        font-weight: lighter;
     }
 }
 
