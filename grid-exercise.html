@@ -12,34 +12,37 @@
 <body>
 
 <div class="container-fluid container-bg">
-<header class="text-center">
-    <div class="header-div">
-        <nav class="navbar navbar-light hidden-small">
 
-            <a class="navbar-item ml-auto mr-5" href="#">
+    <!--Small Header-->
+<header class="text-center">
+
+    <div class="header-div">
+
+        <nav class="navbar navbar-light hidden-extrasmall">
+
+            <a class="navbar-item ml-2" href="#">
                 <h4>Services</h4>
             </a>
-            <a class="navbar-item mr-auto ml-5" href="#">
+            <a class="navbar-item mx-auto" href="#">
                 <h4>Work</h4>
             </a>
-            <a class="navbar-item ml-auto mr-5" href="#">
+            <a class="navbar-item mx-auto" href="#">
                 <h4>Blog</h4>
             </a>
-            <a class="navbar-item mr-auto ml-5" href="#">
+            <a class="navbar-item mr-2" href="#">
                 <h4>Contact</h4>
             </a>
         </nav>
-
-
-
 
     </div>
     <img src="img/logo.png">
 
 </header>
+    <!--extra small navbar-->
+
     <h1 class="h1-rel-up">codeup design</h1>
 
-    <nav class="navbar navbar-light text-center nav-rel-up d-md-none">
+    <nav class="navbar navbar-light text-center nav-rel-up d-sm-none">
 
         <a class="navbar-item ml-auto" href="#">
             <h4>Services</h4>
@@ -54,11 +57,13 @@
             <h4>Contact</h4>
         </a>
     </nav>
-<main>
 
+<main>
     <h1 class="main-header">Visual Design & Web Development</h1>
     <h3 class="from mt-5">From Park City, Utah</h3>
-    <section>
+
+    <section class="d-sm-none">
+        <!--extra small DDSH spheres-->
 
         <div class="row mt-5">
         <div class="spheres ml-auto mr-5 my-3 bg-danger">Design</div>
@@ -69,6 +74,19 @@
         <div class="spheres ml-auto my-3 mr-5 bg-success">Support</div>
         <div class="spheres mr-auto  my-3 bg-info">Host</div>
         </div>
+    </section>
+
+    <section>
+        <!--Small or bigger DDSH spheres-->
+<div class="row">
+    <div class="spheres">Design</div>
+    <div class="spheres">Develop</div>
+    <div class="spheres">Support</div>
+    <div class="spheres">Host</div>
+
+
+</div>
+
 
     </section>
 
