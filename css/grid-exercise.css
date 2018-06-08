@@ -136,3 +136,10 @@ h3  {
     }
 
 }
+
+@media screen and (max-width:720px) {
+    .hidden-on-medium {
+        display: none;
+    }
+
+}
