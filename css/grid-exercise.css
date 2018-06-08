@@ -1,13 +1,24 @@
 header img{
     border-radius: 50%;
-    height: 105px;
-    width: 105px;
+    height: 255px;
+    width: 255px;
     position: relative;
-    bottom: 80px;
+    bottom: 180px;
 }
 
-.bg-color{
+.container-bg{
     background-color: lightgrey;
+    padding: 7em 0 9em 0;
+}
+
+.h1-rel-up{
+    position: relative;
+    bottom: 150px;
+}
+
+.nav-rel-up{
+    position: relative;
+    bottom: 100px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,7 +35,6 @@ nav {
 }
 
 .main-header{
-    margin-top: 5rem;
     font-weight: bold;
     font-size: 64px;
 }
@@ -38,7 +48,6 @@ nav {
     height: 100px;
     width: 100%;
     background-color: white;
-    margin-top: 40px;
 
 }
 
@@ -62,14 +71,32 @@ nav {
 }
 
 section img {
-    /*border: rgb(230 230 230) 5px solid;*/
+    padding: 15px;
+    background-color: rgba(180,180,180, .25);
 }
 h3  {
     font-family: 'Abel', sans-serif;
     font-weight: lighter;
-    font-size: 48px;
+    font-size: 38px;
     text-transform: uppercase;
 }
-.abel {
+
+.icon{
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: "Anton Regular", sans-serif;
+    font-size: 1.5em;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media screen and (min-width:768px) {
+    header img{
+        height: 105px;
+        width: 105px;
+    }
 
 }
