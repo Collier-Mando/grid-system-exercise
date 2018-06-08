@@ -106,16 +106,16 @@ h3  {
         height: 50px;
     }
 
+    .spheres{
+        height: 180px;
+        width: 180px;
+    }
+
 }
 
 @media screen and (max-width:576px) {
     .hidden-extrasmall {
         display: none;
-    }
-
-    .spheres{
-        height: 200px;
-        width: 200px;
     }
 
 }
