@@ -6,6 +6,12 @@ header img{
     bottom: 180px;
 }
 
+.max-width {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 .container-bg{
     background-color: lightgrey;
     padding: 7em 0 9em 0;
@@ -55,6 +61,7 @@ h1, h2, h3, h4, h5, h6{
 h4 {
     color: black;
     font-weight: normal;
+    font-size: 15px;
 }
 
 nav {
@@ -175,6 +182,23 @@ h3  {
     }
 }
 
+@media screen and (min-width:992px) {
+    header img {
+        float: none;
+        right: 340px;
+
+
+    }
+    .h1-rel-up {
+        float: none;
+        right: 145px;
+        bottom: 153px;
+    }
+    .lrg-nav-margin {
+        margin-right: 5em;
+    }
+}
+
 
 @media screen and (max-width:576px) {
     .hidden-extrasmall {
@@ -187,3 +211,5 @@ h3  {
         display: none;
     }
 }
+
+
