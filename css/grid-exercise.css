@@ -97,6 +97,20 @@ h3  {
     header img{
         height: 105px;
         width: 105px;
+        bottom: 80px;
+    }
+    .h1-rel-up {
+        bottom: 0;
+    }
+    .header-div {
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .hidden-small {
+        display: none;
     }
 
 }
