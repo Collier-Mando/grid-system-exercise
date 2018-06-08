@@ -12,11 +12,28 @@ header img{
 }
 
 aside img {
-    width: 20px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: .5em;
+    margin-right: 1em;
 }
 
+.aside-text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Anton Regular", sans-serif;
+    text-transform: uppercase;
+    margin-left: 1em;
+    display: block;
+}
 
+.twitter-aside{
+
+    padding: 0 2em;
+    font-size: small;
+    font-weight: lighter;
+
+}
 
 .h1-rel-up{
     position: relative;
