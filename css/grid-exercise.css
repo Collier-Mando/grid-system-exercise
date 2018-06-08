@@ -39,6 +39,7 @@ nav {
 
 .main-header{
     font-size: 50px;
+    clear: both;
 }
 
 .from{
@@ -100,6 +101,11 @@ h3  {
     width: 65%;
 }
 
+.h1-rel-up{
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
 @media screen and (min-width:576px) {
     header img {
         height: 105px;
@@ -128,18 +134,30 @@ h3  {
     }
 }
 
+@media screen and (min-width:768px){
+    header img{
+        float: left;
+    }
+
+    .h1-rel-up{
+        float: left;
+        bottom: 50px;
+    }
+
+    .hr-small{
+        width: 90%;
+    }
+}
 
 
 @media screen and (max-width:576px) {
     .hidden-extrasmall {
         display: none;
     }
-
 }
 
-@media screen and (max-width:720px) {
-    .hidden-on-medium {
+@media screen and (max-width:768px) {
+    .hidden-small {
         display: none;
     }
-
 }

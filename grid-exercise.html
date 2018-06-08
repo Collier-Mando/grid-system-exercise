@@ -13,11 +13,32 @@
 
 <div class="container-fluid container-bg">
 
-    <!--Small Header-->
+
+
+
 <header class="text-center">
 
     <div class="header-div">
 
+        <!--Medium or larger Nav Bar-->
+
+        <nav class="navbar navbar-light hidden-small pt-3">
+
+            <a class="navbar-item ml-auto mr-4" href="#">
+                <h4>Services</h4>
+            </a>
+            <a class="navbar-item mr-4" href="#">
+                <h4>Work</h4>
+            </a>
+            <a class="navbar-item mr-4" href="#">
+                <h4>Blog</h4>
+            </a>
+            <a class="navbar-item mr-1" href="#">
+                <h4>Contact</h4>
+            </a>
+        </nav>
+
+        <!--Small Navbar-->
         <nav class="navbar navbar-light hidden-extrasmall d-md-none">
 
             <a class="navbar-item ml-2" href="#">
@@ -90,8 +111,10 @@
 
 
     </section>
-
-    <h3 class="mb-5">Selected Work</h3>
+<div class="row">
+    <h3 class="col-12 col-md-8 mb-5">Selected Work</h3>
+    <h3 class="d-none d-md-inline col-4">The Last</h3>
+</div>
 
     <!--very small screen featured projects-->
     <section class="d-sm-none">
@@ -115,20 +138,20 @@
 
         <div class="row">
 
-            <img class="col-4 offset-1"  src="img/apple-ipad.jpg" alt="laptop photo">
-            <img class="col-4 offset-2"  src="img/macbook.jpg" alt="laptop photo">
+            <img class="col-4 col-md-3 offset-1"  src="img/apple-ipad.jpg" alt="laptop photo">
+            <img class="col-4 col-md-3 offset-2 offset-md-1"  src="img/macbook.jpg" alt="laptop photo">
         </div>
             <div class="row">
-            <div class="col-2 offset-1"><h5>Featured Project</h5></div>
-            <div class="col-2 offset-1">
+            <div class="col-2 offset-1 col-md-1 mr-4"><h5>Featured Project</h5></div>
+            <div class="col-2 offset-1 offset-md-0">
                 <div class="icon bg-danger mt-2 mr-2">D</div>
                 <div class="icon bg-warning mt-2 mr-2">D</div>
                 <div class="icon bg-success mt-2 mr-2">S</div>
                 <div class="icon bg-info mt-2">H</div>
             </div>
 
-            <div class="col-2 offset-1"><h5>Featured Project</h5></div>
-            <div class="col-2 offset-1">
+            <div class="col-2 offset-1 col-md-1 mr-4"><h5>Featured Project</h5></div>
+            <div class="col-2 offset-1 offset-md-0">
                 <div class="icon bg-danger mt-2 mr-2">D</div>
                 <div class="icon bg-warning mt-2 mr-2">D</div>
                 <div class="icon bg-success mt-2 mr-2">S</div>
@@ -138,26 +161,30 @@
 
         <div class="row">
 
-            <img class="col-4 offset-1"  src="img/man.jpg" alt="photo of man">
-            <img class="col-4 offset-2"  src="img/security.jpg" alt="security">
+            <img class="col-4 col-md-3 offset-1"  src="img/man.jpg" alt="photo of man">
+            <img class="col-4 col-md-3 offset-2 offset-md-1"  src="img/security.jpg" alt="security">
         </div>
             <div class="row">
-                <div class="col-2 offset-1"><h5>Featured Project</h5></div>
-                <div class="col-2 offset-1">
+                <div class="col-2 offset-1 col-md-1 mr-4"><h5>Featured Project</h5></div>
+                <div class="col-2 offset-1 offset-md-0">
                     <div class="icon bg-danger mt-2 mr-2">D</div>
                     <div class="icon bg-warning mt-2 mr-2">D</div>
                     <div class="icon bg-success mt-2 mr-2">S</div>
                     <div class="icon bg-info mt-2">H</div>
                 </div>
 
-                <div class="col-2 offset-1"><h5>Featured Project</h5></div>
-                <div class="col-2 offset-1">
+                <div class="col-2 offset-1 col-md-1 mr-4"><h5>Featured Project</h5></div>
+                <div class="col-2 offset-1 offset-md-0">
                     <div class="icon bg-danger mt-2 mr-2">D</div>
                     <div class="icon bg-warning mt-2 mr-2">D</div>
                     <div class="icon bg-success mt-2 mr-2">S</div>
                     <div class="icon bg-info mt-2">H</div>
                 </div>
             </div>
+
+        <aside class="d-none d-md-block float-right">
+test text
+        </aside>
 
     </section>
 
