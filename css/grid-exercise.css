@@ -56,6 +56,8 @@ nav {
 .spheres{
     text-align: center;
     line-height: 180px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     font-size: 30px;
     text-transform: uppercase;
