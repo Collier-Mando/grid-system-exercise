@@ -1,4 +1,4 @@
-img{
+header img{
     border-radius: 50%;
     height: 105px;
     width: 105px;
@@ -59,4 +59,17 @@ nav {
 
 .big-margin-bottom{
     margin-bottom: 10em;
+}
+
+section img {
+    /*border: rgb(230 230 230) 5px solid;*/
+}
+h3  {
+    font-family: 'Abel', sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.abel {
+
 }
