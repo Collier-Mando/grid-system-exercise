@@ -69,13 +69,14 @@ nav {
 }
 
 .main-header{
-    font-size: 50px;
+    font-size: 64px;
     clear: both;
 }
 
 .from{
     font-weight: bold;
-    font-size: 45px;
+    font-family: "Anton Regular", sans-serif;
+    font-size: 40px;
 }
 
 .header-div{
