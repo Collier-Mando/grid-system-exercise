@@ -217,6 +217,13 @@ h3  {
     .hidden-extrasmall {
         display: none;
     }
+
+    .spheres{
+        height: 200px;
+        width: 200px;
+        line-height: 170px;
+        font-size: 32px;
+    }
 }
 
 @media screen and (max-width:768px) {
