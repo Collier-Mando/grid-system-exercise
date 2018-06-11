@@ -193,17 +193,17 @@ h3  {
 @media screen and (min-width:992px) {
     header img {
         float: none;
-        right: 340px;
+        right: 400px;
 
 
     }
     .h1-rel-up {
         float: none;
-        right: 145px;
+        right: 185px;
         bottom: 153px;
     }
     .lrg-nav-margin {
-        padding-right: 5em;
+        padding-right: 12em;
     }
 }
 
