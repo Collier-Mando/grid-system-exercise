@@ -1,3 +1,18 @@
+.container-bg{
+    background-color: lightgrey;
+    padding: 7em 0 9em 0;
+}
+
+.header-div{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    background-color: inherit;
+}
+
 header img{
     border-radius: 50%;
     height: 255px;
@@ -6,15 +21,95 @@ header img{
     bottom: 180px;
 }
 
+.h1-rel-up{
+    position: relative;
+    bottom: 150px;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.nav-rel-up{
+    position: relative;
+    bottom: 100px;
+}
+
 .max-width {
     width: 100%;
     margin: 0 auto;
     max-width: 1000px;
 }
 
-.container-bg{
-    background-color: lightgrey;
-    padding: 7em 0 9em 0;
+h1, h2, h3, h4, h5, h6{
+    font-family: "Anton Regular",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3  {
+    font-family: 'Abel', sans-serif;
+    font-weight: lighter;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.main-header{
+    font-size: 64px;
+    clear: both;
+}
+
+.from{
+    font-weight: bold;
+    font-family: "Anton Regular", sans-serif;
+    font-size: 40px;
+}
+
+.spheres{
+    text-align: center;
+    line-height: 100px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: white 10px solid;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Anton Regular", sans-serif;
+
+}
+
+.big-margin-bottom{
+    margin-bottom: 10em;
+}
+
+.tech-img {
+    padding: 15px;
+    background-color: rgba(180,180,180, .25);
+    height: 100%;
+}
+
+.hr-small {
+    width: 65%;
+}
+
+.icon{
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: "Anton Regular", sans-serif;
+    font-size: 1.5em;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
 }
 
 aside img {
@@ -41,103 +136,7 @@ aside img {
 
 }
 
-.h1-rel-up{
-    position: relative;
-    bottom: 150px;
-}
-
-.nav-rel-up{
-    position: relative;
-    bottom: 100px;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: "Anton Regular",sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-h4 {
-    color: black;
-    font-weight: normal;
-    font-size: 15px;
-}
-
-nav {
-    background-color: inherit;
-}
-
-.main-header{
-    font-size: 64px;
-    clear: both;
-}
-
-.from{
-    font-weight: bold;
-    font-family: "Anton Regular", sans-serif;
-    font-size: 40px;
-}
-
-.header-div{
-    height: 100px;
-    width: 100%;
-    background-color: white;
-
-}
-
-.spheres{
-    text-align: center;
-    line-height: 100px;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: "Anton Regular", sans-serif;
-    border: white 10px solid;
-    color: white;
-    display: inline-block;
-}
-
-.big-margin-bottom{
-    margin-bottom: 10em;
-}
-
- .techimg {
-    padding: 15px;
-    background-color: rgba(180,180,180, .25);
-    height: 100%;
-}
-h3  {
-    font-family: 'Abel', sans-serif;
-    font-weight: lighter;
-    font-size: 38px;
-    text-transform: uppercase;
-}
-
-.icon{
-    border-radius: 50%;
-    font-weight: bold;
-    font-family: "Anton Regular", sans-serif;
-    font-size: 1.5em;
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-    text-align: center;
-    line-height: 50px;
-}
-
-.hr-small {
-    width: 65%;
-}
-
-.h1-rel-up{
-    text-transform: lowercase;
-    font-weight: lighter;
-}
-
+/*Small screens (Not Very Small)*/
 @media screen and (min-width:576px) {
     header img {
         height: 105px;
@@ -166,8 +165,7 @@ h3  {
     }
 }
 
-
-
+/*Medium Screens*/
 @media screen and (min-width:768px){
     header img{
         float: left;
@@ -191,12 +189,11 @@ h3  {
     }
 }
 
+/*Large screens*/
 @media screen and (min-width:992px) {
     header img {
         float: none;
         right: 400px;
-
-
     }
 
     .aside-text {
@@ -213,7 +210,7 @@ h3  {
     }
 }
 
-
+/*Smaller than small*/
 @media screen and (max-width:576px) {
     .hidden-extrasmall {
         display: none;
@@ -227,10 +224,19 @@ h3  {
     }
 }
 
+/*Smaller than medium*/
 @media screen and (max-width:768px) {
     .hidden-small {
         display: none;
     }
 }
+
+
+
+
+
+
+
+
 
 
